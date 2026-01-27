@@ -1,0 +1,54 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "type": "Single",
+      "price": 1200,
+      "features": ["AC", "WiFi"],
+      "available": true
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "type": "Double",
+      "price": 2000,
+      "features": ["AC", "WiFi", "TV"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "roomNumber": "201",
+      "type": "Deluxe",
+      "price": 3500,
+      "features": ["AC", "WiFi", "TV", "Balcony"],
+      "available": false
+    }
+  ],
+
+  "reservations": [
+    {
+      "id": 1,
+      "roomId": 2,
+      "guestName": "Rahul Sharma",
+      "checkIn": "2026-01-28",
+      "checkOut": "2026-01-30",
+      "status": "Confirmed"
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    }
+  ]
+}
