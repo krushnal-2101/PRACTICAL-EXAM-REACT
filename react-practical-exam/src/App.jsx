@@ -16,17 +16,17 @@ export default function App() {
         <Route
           path="/reserve"
           element={
-            <PrivateRoute>
+            // <PrivateRoute>
               <ReservationForm />
-            </PrivateRoute>
+            // </PrivateRoute>
           }
         />
         <Route
           path="/reservations"
           element={
-            <PrivateRoute>  
+            // <PrivateRoute>  
               <ReservationList />
-            </PrivateRoute>
+            // </PrivateRoute>
           }
         />
       </Routes>
