@@ -8,13 +8,13 @@ export default function ReservationList() {
 
   useEffect(() => {
     dispatch(fetchReservations());
-  }, []);
+  }, [dispatch]);
 
   return (
-    <div className="container">
-      <h3>Reservations</h3>
+    <div className="container mt-5 p-3"   style={{backgroundColor:" rgb(35, 66, 56)"}}>
+      <h3 style={{color:"white"}}>Reservations</h3>
       {list.map(r => (
-        <div key={r.id} className="card p-2 mb-2">
+        <div key={r.id} className="card p-3"  style={{backgroundColor:" rgb(35, 66, 56)", color:"white", fontSize:"18px", fontWeight:"bold"}}>
           Room: {r.roomId}
           <button
             className="btn btn-danger btn-sm float-end"

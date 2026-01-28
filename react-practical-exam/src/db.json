@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "type": "Single",
+      "pricePerNight": 1000,
+      "capacity": 1,
+      "status": "available",
+      "amenities": ["WiFi", "TV", "Air Conditioning"]
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "type": "Double",
+      "pricePerNight": 120,
+      "capacity": 2,
+      "status": "occupied",
+      "amenities": ["WiFi", "TV", "Mini Bar"]
+    }
+  ],
+
+  "reservations": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "userId": 2,
+      "guestName": "Rahul Sharma",
+      "checkIn": "2026-02-01",
+      "checkOut": "2026-02-03",
+      "totalPrice": 2000,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "roomId": 2,
+      "userId": 1,
+      "guestName": "Admin User",
+      "checkIn": "2026-02-05",
+      "checkOut": "2026-02-06",
+      "totalPrice": 120,
+      "status": "pending"
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "username": "staff",
+      "password": "staff123"
+    }
+  ]
+}
+  

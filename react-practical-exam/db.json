@@ -1,54 +1,150 @@
 {
   "rooms": [
     {
-      "id": 1,
+      "id": "1",
       "roomNumber": "101",
       "type": "Single",
-      "price": 1200,
-      "features": ["AC", "WiFi"],
-      "available": true
+      "pricePerNight": 80,
+      "capacity": 1,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "roomNumber": "102",
       "type": "Double",
-      "price": 2000,
-      "features": ["AC", "WiFi", "TV"],
-      "available": true
+      "pricePerNight": 120,
+      "capacity": 2,
+      "status": "occupied",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Mini Bar"
+      ]
     },
     {
-      "id": 3,
-      "roomNumber": "201",
+      "id": "3",
+      "roomNumber": "103",
       "type": "Deluxe",
-      "price": 3500,
-      "features": ["AC", "WiFi", "TV", "Balcony"],
-      "available": false
-    }
-  ],
-
-  "reservations": [
+      "pricePerNight": 180,
+      "capacity": 3,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Balcony",
+        "Mini Bar"
+      ]
+    },
     {
-      "id": 1,
-      "roomId": 2,
-      "guestName": "Rahul Sharma",
-      "checkIn": "2026-01-28",
-      "checkOut": "2026-01-30",
-      "status": "Confirmed"
+      "id": "4",
+      "roomNumber": "104",
+      "type": "Suite",
+      "pricePerNight": 250,
+      "capacity": 4,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Jacuzzi",
+        "Kitchen"
+      ]
+    },
+    {
+      "id": "5",
+      "roomNumber": "105",
+      "type": "Single",
+      "pricePerNight": 75,
+      "capacity": 1,
+      "status": "maintenance",
+      "amenities": [
+        "WiFi",
+        "TV"
+      ]
+    },
+    {
+      "id": "6",
+      "roomNumber": "201",
+      "type": "Double",
+      "pricePerNight": 130,
+      "capacity": 2,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": "7",
+      "roomNumber": "202",
+      "type": "Deluxe",
+      "pricePerNight": 190,
+      "capacity": 3,
+      "status": "occupied",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Balcony"
+      ]
+    },
+    {
+      "id": "8",
+      "roomNumber": "203",
+      "type": "Suite",
+      "pricePerNight": 300,
+      "capacity": 5,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Private Pool",
+        "Kitchen"
+      ]
+    },
+    {
+      "id": "9",
+      "roomNumber": "204",
+      "type": "Single",
+      "pricePerNight": 85,
+      "capacity": 1,
+      "status": "available",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Work Desk"
+      ]
+    },
+    {
+      "id": "10",
+      "roomNumber": "205",
+      "type": "Double",
+      "pricePerNight": 140,
+      "capacity": 2,
+      "status": "occupied",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Mini Bar",
+        "Balcony"
+      ]
     }
   ],
-
+  "reservations": [],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
-      "password": "admin",
-      "role": "admin"
+      "password": "admin123"
     },
     {
-      "id": 2,
-      "username": "user",
-      "password": "user",
-      "role": "user"
+      "id": "2",
+      "username": "staff",
+      "password": "staff123"
     }
   ]
 }

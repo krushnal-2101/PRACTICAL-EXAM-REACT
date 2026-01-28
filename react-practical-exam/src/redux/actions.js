@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "http://localhost:5001";
+const API = "http://localhost:3001";
 
 export const fetchRooms = () => async dispatch => {
   dispatch({ type: "ROOMS_LOADING" });

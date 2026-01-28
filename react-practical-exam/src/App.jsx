@@ -4,7 +4,7 @@ import ReservationForm from "./components/ReservationForm";
 import ReservationList from "./components/ReservationLIst";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
-import PrivateRoute from "./components/PrivateRoute";
+// import PrivateRoute from "./components/PrivateRoute";
 
 export default function App() {
   return (

@@ -11,13 +11,13 @@ export default function ReservationForm() {
   };
 
   return (
-    <div className="container">
+    <div className="container p-5 mt-3" style={{backgroundColor:" rgb(35, 66, 56)"}}>
       <input
-        className="form-control mb-2"
+        className="form-control mt-5 "
         placeholder="Room ID"
         onChange={e => setRoomId(e.target.value)}
       />
-      <button className="btn btn-success" onClick={submit}>
+      <button className="btn btn-success mt-3" onClick={submit}>
         Reserve
       </button>
     </div>
