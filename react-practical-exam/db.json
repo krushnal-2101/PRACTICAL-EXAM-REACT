@@ -134,7 +134,23 @@
       ]
     }
   ],
-  "reservations": [],
+  "reservations": [
+    {
+      "id": "0f6a",
+      "roomId": "1",
+      "status": "Confirmed"
+    },
+    {
+      "id": "a12b",
+      "roomId": "3",
+      "status": "Confirmed"
+    },
+    {
+      "id": "c7bb",
+      "roomId": "5",
+      "status": "Confirmed"
+    }
+  ],
   "users": [
     {
       "id": "1",
